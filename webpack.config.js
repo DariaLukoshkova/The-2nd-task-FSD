@@ -34,14 +34,20 @@ module.exports = {
                 name: '[name].[ext]'
             },
         },
+        {
+            test: /\.pug$/,
+            loader: 'pug-loader'
+        },
     ],
     },
     plugins: [
         new HtmlWebpackPlugin({
-            inject: false,
-            hash: true,
-            template: './src/index.html',
+            template: './src/main/index.pug',
             filename: 'bundle.html'
+        }),
+        new HtmlWebpackPlugin({
+            template: './src/ui-kit/colors-and-types.pug',
+            filename: 'colors-and-types.html'
         }),
         new MiniCssExtractPlugin({
           filename: "bundle.css",
