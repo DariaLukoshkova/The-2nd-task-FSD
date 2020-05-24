@@ -1,0 +1,15 @@
+extends ../layouts/ui-kit-layout.pug
+include ui-kit-colors-types.scss
+
+block variables
+    -var title = "Colors & Types"
+
+block content
+    include ../blocks/color-block/color-block.pug
+        +color-block("dark-shade-100", "Dark Shade 100%", "#1F2041")
+        +color-block("dark-shade-75", "Dark Shade 75%", "#1F2041")
+        +color-block("dark-shade-50", "Dark Shade 50%", "#1F2041")
+        +color-block("dark-shade-25", "Dark Shade 25%", "#1F2041")
+        +color-block("dark-shade-5", "Dark Shade 5%", "#1F2041")
+        +color-block("purple", "Purple", "#BC9CFF")
+        +color-block("green", "Green", "#6FCF97")

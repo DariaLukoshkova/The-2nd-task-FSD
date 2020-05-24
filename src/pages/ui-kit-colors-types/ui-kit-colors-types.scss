@@ -1,0 +1,113 @@
+.logo-wrapper{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.color-block__rectangle{
+
+    .dark-shade-100{
+        position: absolute;
+        background-color: $darkshade100;
+        left: 150px;
+        top: 145px;
+    }
+
+    .dark-shade-75{
+    position: absolute;
+    background-color: $darkshade75;
+    left: 150px;
+    top: 235px;
+    }
+
+    .dark-shade-50{
+        position: absolute;
+        background-color: $darkshade50;
+        left: 150px;
+        top: 325px;
+    }
+
+    .dark-shade-25{
+        position: absolute;
+        background-color: $darkshade25;
+        left: 150px;
+        top: 415px;
+    }
+    .dark-shade-5{
+        position: absolute;
+        background-color: $darkshade5;
+        left: 150px;
+        top: 505px;
+    }
+
+    .purple{
+        position: absolute;
+        background-color: $purple;
+        left: 150px;
+        top: 595px;
+    }
+
+    .green{
+        position: absolute;
+        background-color: $green;
+        left: 150px;
+        top: 685px;
+    }
+}
+
+.color-block__text-wrapper{
+
+    .dark-shade-100{
+        position: absolute;
+        width: 159px;
+        height: 57px;
+        left: 260px;
+        top: 152px;
+    }
+    .dark-shade-75{
+        position: absolute;
+        width: 150px;
+        height: 57px;
+        left: 260px;
+        top: 242px;
+    }
+
+    .dark-shade-50{
+        position: absolute;
+        width: 151px;
+        height: 57px;
+        left: 260px;
+        top: 332px;
+    }
+
+    .dark-shade-25{
+        position: absolute;
+        width: 149px;
+        height: 57px;
+        left: 260px;
+        top: 422px;
+    }
+    .dark-shade-5{
+        position: absolute;
+        width: 139px;
+        height: 58px;
+        left: 260px;
+        top: 511px;
+    }
+
+    .purple{
+        position: absolute;
+        width: 82px;
+        height: 58px;
+        left: 260px;
+        top: 601px;
+    }
+
+    .green{
+        position: absolute;
+        width: 77px;
+        height: 57px;
+        left: 260px;
+        top: 692px;
+    }
+}

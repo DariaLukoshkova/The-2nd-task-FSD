@@ -1,11 +1,11 @@
-color__rectangle{
+.color-block__rectangle{
     width: 70px;
     height: 70px;
     border-radius: 6px;
     background: $darkshade100;
 }
 
-color__color-name{
+.color-block__color-name{
     font-family: Quicksand;
     font-style: normal;
     font-weight: bold;
@@ -15,7 +15,7 @@ color__color-name{
     align-items: center;
 }
 
-color__color-name{
+.color-block__color-number{
     font-family: Quicksand;
     font-style: normal;
     font-weight: normal;

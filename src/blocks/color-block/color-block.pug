@@ -1,6 +1,6 @@
 include color-block.scss
-
-.color
-    .color__rectangle
-        h2.color__color-name
-        h2.color__color-number
+mixin color-block(className, colorName, colorNumber)
+    .color-block__rectangle.className
+    .color-block__text-wrapper.className
+        h2.color-block__color-name=colorName
+        h2.color-block__color-number=colorNumber
