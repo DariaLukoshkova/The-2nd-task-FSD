@@ -1,12 +1,14 @@
-<!DOCTYPE html>
+block variables
+
+doctype html
 html(lang="en")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        style(rel='stylesheet' href=`{#styleLink}`)
         title title
     body
-        .logo-wrapper
-            include '../blocks/logo/logo.pug'
+        include ./../blocks/logo/logo
         block content
         
 
