@@ -12,3 +12,14 @@ $font-h1: bold, 24px/30px, "Open Sans", sans-serif;
 $font-h2: bold, 19px/24px, "Open Sans", sans-serif;
 $font-h3: bold, uppercase, 12px/15px, Montserrat, sans-serif;
 $font-p: 14px/24px, Montserrat, sans-serif;
+
+//Fonts
+@font-face {
+  font-family: 'Quicksand-Regular';
+  src: url('/src/fonts/Quicksand-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Quicksand-Bold';
+  src: url('/src/fonts/Quicksand-Bold.woff') format('woff');
+}

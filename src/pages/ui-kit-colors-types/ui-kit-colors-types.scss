@@ -1,3 +1,6 @@
+@import "./../../scss/variables.scss";
+@import "./../../blocks/color-block/color-block.scss";
+
 .logo-wrapper{
     position: absolute;
     left: 30px;
@@ -8,36 +11,36 @@
     position: absolute;
     left: 150px;
 
-    .dark-shade-100{
+    &.dark-shade-100{
         background-color: $darkshade100;
         top: 145px;
     }
 
-    .dark-shade-75{
+    &.dark-shade-75{
     background-color: $darkshade75;
     top: 235px;
     }
 
-    .dark-shade-50{
+    &.dark-shade-50{
         background-color: $darkshade50;
         top: 325px;
     }
 
-    .dark-shade-25{
+    &.dark-shade-25{
         background-color: $darkshade25;
         top: 415px;
     }
-    .dark-shade-5{
+    &.dark-shade-5{
         background-color: $darkshade5;
         top: 505px;
     }
 
-    .purple{
+    &.purple{
         background-color: $purple;
         top: 595px;
     }
 
-    .green{
+    &.green{
         background-color: $green;
         top: 685px;
     }
@@ -47,41 +50,42 @@
     position: absolute;
     left: 260px;
 
-    .dark-shade-100{
+    &.dark-shade-100{
         width: 159px;
         height: 57px;
         top: 152px;
     }
-    .dark-shade-75{
+    &.dark-shade-75{
         width: 150px;
         height: 57px;
         top: 242px;
     }
 
-    .dark-shade-50{
+    &.dark-shade-50{
         width: 151px;
         height: 57px;
         top: 332px;
     }
 
-    .dark-shade-25{
+    &.dark-shade-25{
         width: 149px;
         left: 260px;
         top: 422px;
     }
-    .dark-shade-5{
+    
+    &.dark-shade-5{
         width: 139px;
         height: 58px;
         top: 511px;
     }
 
-    .purple{
+    &.purple{
         width: 82px;
         height: 58px;
         top: 601px;
     }
 
-    .green{
+    &.green{
         width: 77px;
         height: 57px;
         top: 692px;

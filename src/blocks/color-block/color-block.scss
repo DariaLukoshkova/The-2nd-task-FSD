@@ -1,26 +1,21 @@
+@import "./../../scss/variables.scss";
+
 .color-block__rectangle{
     width: 70px;
     height: 70px;
     border-radius: 6px;
-    background: $darkshade100;
+}
+
+.color-block__text-wrapper{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: "Quicksand-Regular", sans-serif;
+    color: $darkshade100;
+    font-size: 19px;
+    line-height: 29px;
 }
 
 .color-block__color-name{
-    font-family: Quicksand;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 19px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-}
-
-.color-block__color-number{
-    font-family: Quicksand;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
+    font-family: "Quicksand-Bold", sans-serif;
 }
