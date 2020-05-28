@@ -1,6 +1,13 @@
 @import "./../../scss/variables.scss";
 @import "./../../blocks/color-block/color-block.scss";
 
+body{
+    position: relative;
+    width: 1440px;
+    height: 900px;
+    background: #FFFFFF;
+}
+
 .logo-wrapper{
     position: absolute;
     left: 30px;
