@@ -36,12 +36,18 @@ module.exports = {
               }],
         },
         {
-            test: /\.(png|svg|jpg|gif)$/,
+            test: /\.(png|jpg|gif)$/,
             use: 'file-loader'
         },
         {
-            test: /\.(eot|woff|woff2|ttf|otf)$/,
-            use: 'file-loader'
+            test: /\.(eot|woff|woff2|ttf|otf|svg)$/,
+            use: {
+              loader: 'file-loader',
+              options: {
+                name: "[name].[ext]",
+                outputPath: 'fonts',
+            },
+          },
         },
         {
             test: /\.scss$/,

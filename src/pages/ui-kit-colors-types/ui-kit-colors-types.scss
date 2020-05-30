@@ -107,36 +107,38 @@ body{
    top: 145px;
    font-family: Montserrat-Regular;
    color: $darkshade25;
-   text-align: right;
-
-   .types-headling__h1 {
-        font-size: 24px;
-        line-height: 29px;
-    }
-
-    .types-headling__h2 {
-        position: absolute;
-        top: 110px;
-        font-size: 19px;
-        line-height: 23px;
-    }
-
-    .types-headling__h3 {
-        position: absolute;
-        top: 208px;
-        font-size: 12px;
-        line-height: 15px;
-        text-transform: uppercase;
-    }
-
-    .types-headling__body {
-        position: absolute;
-        top: 273px;
-        font-size: 14px;
-        line-height: 24px;
-    }
-
 }
+
+.types-headling__h1 {
+     font-size: 24px;
+     line-height: 29px;
+     left: 8px;
+ }
+
+.types-headling__h2 {
+     position: absolute;
+     top: 110px;
+     left: 10px;
+     font-size: 19px;
+     line-height: 23px;
+ }
+
+.types-headling__h3 {
+     position: absolute;
+     top: 208px;
+     left: 20px;
+     font-size: 12px;
+     line-height: 15px;
+     text-transform: uppercase;
+ }
+
+.types-headling__body {
+     position: absolute;
+     top: 273px;
+     font-size: 14px;
+     line-height: 24px;
+ }
+
 
 .types-text{
     position: absolute;
@@ -144,38 +146,39 @@ body{
     left: 913px;
     top: 145px;
     text-align: left;
-
-    .types-text__h1{
-        font-family: Quicksand-Bold;
-        font-size: 24px;
-        line-height: 30px;
-        color: $darkshade100
-    }
-
-    .types-text__h2{
-        position: absolute;
-        top: 110px;
-        font-family: Quicksand-Bold;
-        font-size: 19px;
-        line-height: 24px;
-        color: $darkshade100;
-    } 
-
-    .types-text__h3{
-        position: absolute;
-        top: 208px;
-        font-family: Montserrat-Bold;
-        font-size: 12px;
-        line-height: 15px;
-        text-transform: uppercase;
-        color: $darkshade100;
-    }
-    .types-text__body{
-        position: absolute;
-        top: 273px;
-        font-family: Montserrat-Regular;
-        font-size: 14px;
-        line-height: 24px;
-        color: $darkshade75;
-    }  
 }
+
+.types-text__h1{
+    font-family: Quicksand-Bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: $darkshade100
+}
+
+.types-text__h2{
+    position: absolute;
+    top: 110px;
+    font-family: Quicksand-Bold;
+    font-size: 19px;
+    line-height: 24px;
+    color: $darkshade100;
+} 
+
+.types-text__h3{
+    position: absolute;
+    top: 208px;
+    font-family: Montserrat-Bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: $darkshade100;
+}
+
+.types-text__body{
+    position: absolute;
+    top: 273px;
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    line-height: 24px;
+    color: $darkshade75;
+} 
