@@ -1,0 +1,12 @@
+extends ./../../layouts/ui-kit-layout.pug
+
+block variables
+    - var title = "Form Elements"
+    - var styleLink = "ui-kit-form-elements.scss"
+
+block content
+    .wrapper-text-field_default
+        include ./../../blocks/text-field/text-field_default/text-field text-field_default.pug
+
+    .wrapper-text-field_hover
+        include ./../../blocks/text-field/text-field_hover/text-field text-field_hover.pug

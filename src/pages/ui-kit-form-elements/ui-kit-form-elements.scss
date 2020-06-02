@@ -1,0 +1,24 @@
+@import './../../blocks/text-field/text-field_default/text-field_default.scss';
+@import './../../blocks/text-field/text-field_hover/text-field_hover.scss';
+
+body{
+    position: relative;
+    width: 1440px;
+    height: 1853px;
+}
+
+.wrapper-text-field_default{
+    position: absolute;
+    width: 320px;
+    height: 67px;
+    left: 141px;
+    top: 140px;    
+}
+
+.wrapper-text-field_hover{
+    position: absolute;
+    width: 320px;
+    height: 64.44px;
+    left: 141px;
+    top: 227px;
+}

@@ -1,0 +1,16 @@
+.text-field__rectangle{
+    width: 320px;
+    height: 44px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid $darkshade50;
+}
+
+.text-field__description{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-weight: normal;
+    color: $darkshade50;
+}

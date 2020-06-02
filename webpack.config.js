@@ -86,6 +86,11 @@ module.exports = {
           filename: "ui-kit-colors-types.html",
           template: 'src/pages/ui-kit-colors-types/ui-kit-colors-types.pug',
         }),
+
+        new HtmlWebpackPlugin({
+          filename: "ui-kit-form-elements.html",
+          template: 'src/pages/ui-kit-form-elements/ui-kit-form-elements.pug',
+        }),
         
         new HtmlWebpackPugPlugin(),
 
